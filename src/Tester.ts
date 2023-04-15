@@ -154,7 +154,6 @@ export class Tester {
      * @param testMode
      * @param listeningType
      */
-
     public async testObserveOrEvent(
         container: EventTestReportContainer,
         interaction: any,
@@ -1960,7 +1959,6 @@ export class Tester {
      * This function starts the testing on the Input Level. It sends the created test data to all Interaction Affordances with an input and records
      * the resopnse of the SuT.
      */
-
     public async testingInputCov(testReport): Promise<any> {
         const full_T3_report = testReport
 
